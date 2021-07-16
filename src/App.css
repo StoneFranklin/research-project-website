@@ -1,38 +1,66 @@
 .App {
   text-align: center;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cloud-image {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/clouds.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  opacity: 0.5;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-text {
+  color: white;
+  z-index: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: black;
+}
+.nav-bar {
+  color: white;
+  position: absolute;
+  left: 5vw;
+  overflow: hidden;
+  width: 90vw;
+  z-index: 1;
+}
+.bottom-bar {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 5vw;
+  overflow: hidden;
+  width: 90vw;
+  z-index: 1;
+}
+.logo {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.link {
+  color: white;
+  opacity: 0.75;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link:link {
+  text-decoration: none;
+}
+.link:visited {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+.active {
+  text-decoration: none;
+  opacity: 1;
 }
