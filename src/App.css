@@ -1,17 +1,23 @@
 .App {
   text-align: center;
-  
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .cloud-image {
-  height: 100vh;
+  /* height: 100vh;
   width: 100vw;
-  background-image: url("images/clouds.jpeg");
-  background-repeat: no-repeat;
+  /* background-image: url("images/clouds.jpeg"); */
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.5; */ 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.6;
 }
 .home-text {
   color: white;
@@ -26,6 +32,11 @@
   align-items: center;
   background-color: black;
 }
+.about {
+  width: 60vw;
+  background-color: black;
+  
+}
 .nav-bar {
   color: white;
   position: absolute;
@@ -37,18 +48,22 @@
 .bottom-bar {
   color: white;
   position: absolute;
-  bottom: 0;
-  left: 5vw;
+  bottom: 1vh;
   overflow: hidden;
-  width: 90vw;
+  width: 100vw;
   z-index: 1;
+  /* background-color: black; */
+  /* padding: 1%; */
 }
 .logo {
   color: white;
 }
 .link {
-  color: white;
-  opacity: 0.75;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#simple-menu{
+  
 }
 .link:link {
   text-decoration: none;
@@ -60,7 +75,29 @@
   text-decoration: none;
   opacity: 1;
 }
-.active {
-  text-decoration: none;
-  opacity: 1;
+.menu-icon {
+  color: white;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* opacity: 75%; */
+}
+.ung {
+  background-image: url('./images/ung.png');
+}
+.aum {
+  background-image: url('./images/aum.png');
+}
+.nsf {
+  width: 90px;
+  height: 90px;
+  background-image: url('./images/nsf.png');
+}
+.xsede {
+  height: 21px;
+  background-image: url('./images/xsede.png');
 }
