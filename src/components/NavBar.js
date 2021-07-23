@@ -38,7 +38,7 @@ const NavBar = () => {
                         anchorEl={value}
                         keepMounted
                         open={Boolean(value)}
-                        onClose={handleClose}
+                        // onClose={handleClose}
                     >
                         <MenuItem onClick={handleClose} >
                             <NavLink to="/about" className="link">

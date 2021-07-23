@@ -19,9 +19,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <video autoPlay="autoplay" muted loop="loop" className="cloud-image">
-            <source src="/Videos/clouds.mp4" type="video/mp4"></source>
-        </video>
+          <video autoPlay="autoplay" muted loop="loop" className="cloud-image">
+              <source src="/Videos/clouds.mp4" type="video/mp4"></source>
+          </video>
         <NavBar />
         <Switch>
           <Route path="/about">
