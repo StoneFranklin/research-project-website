@@ -23,13 +23,13 @@ const NavBar = () => {
                 alignItems="center" 
                 spacing={5} 
             >
-                <Grid container item xs={9} justifyContent="flex-start">
+                <Grid container item xs={9} justifyContent="flex-start" id="padding-left" >
                     <NavLink to="/" className="logo"> 
                         <h3 className="button-text">Logo or Name</h3>
                     </NavLink>
                 </Grid>
 
-                <Grid container item xs={3} justifyContent="flex-end" >
+                <Grid container item xs={3} justifyContent="flex-end" id="padding-right" >
                     <IconButton aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
                         <MenuIcon className="menu-icon" />
                     </IconButton>
@@ -38,7 +38,7 @@ const NavBar = () => {
                         anchorEl={value}
                         keepMounted
                         open={Boolean(value)}
-                        // onClose={handleClose}
+                        onClose={handleClose}
                     >
                         <MenuItem onClick={handleClose} >
                             <NavLink to="/about" className="link">

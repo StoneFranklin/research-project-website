@@ -26,9 +26,7 @@ const Links = () => {
                                 <LinkButton text={element.text} url={element.url} />
                             </Grid>
                         )}
-                        
                     </Grid>
-                    
                 </div>
             </div>
         </div>

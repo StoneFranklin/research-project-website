@@ -6,7 +6,7 @@ import { Grid } from '@material-ui/core'
 
 const collaborators = [
     {name: "Stone Franklin", title: "Research Assistant", school: "University of North Georgia"},
-    {name: "Stone Franklin", title: "Research Assistant", school: "University of North Georgia"},
+    {name: "Smit Patel", title: "Research Assistant", school: "University of North Georgia"},
     {name: "Stone Franklin", title: "Research Assistant", school: "University of North Georgia"},
     {name: "Stone Franklin", title: "Research Assistant", school: "University of North Georgia"},
     {name: "Stone Franklin", title: "Research Assistant", school: "University of North Georgia"},
