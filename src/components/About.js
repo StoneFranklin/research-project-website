@@ -5,7 +5,7 @@ import Title from './Title'
 const About = () => {
     return(
         <div className="container">
-            <div className="collaborators">
+            <div className="about">
                 <Title text="About" />
                 <div className="home-text">
                     <div className="text-block">

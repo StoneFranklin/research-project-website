@@ -1,33 +1,38 @@
 html {
-  background-color: black;
+  background-color: #171717;
+  background-image: url("https://www.transparenttextures.com/patterns/triangles.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   overflow-x: hidden;
 }
 .App {
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  height: 100vh;
 }
 .cloud-background {
-  background-image: url('./images/clouds.jpg');
+  /* background-image: url('./images/clouds.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .home-text {
   color: white;
   z-index: 1;
-  background-color: black;
+  background-color: rgb(39, 39, 39);
+  border-radius: 8px;
 }
 .link-text {
   color: white;
   z-index: 1;
-  background-color: black;
+  background-color: rgb(39, 39, 39);
   padding-top: 5vh;
   padding-bottom: 5vh;
+  border-radius: 8px;
 }
 .home {
   font-size: 70px;
   color: white;
   z-index: 1;
-  text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  text-shadow: 2px 2px 8px rgb(26, 25, 25);
   width: 80vw;
 }
 .container {
@@ -45,12 +50,6 @@ html {
   z-index: 1;
   margin-bottom: 10vh;
 }
-.about {
-  width: 60vw;
-  background-color: black;
-  margin-top: 20vh;
-  border-radius: 5px;
-}
 .text-block {
   font-size: 20px;
   padding-bottom: 10px;
@@ -64,6 +63,13 @@ html {
   overflow: visible;
   width: 80vw;
 }
+.about {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  width: 80vw;
+}
 .white-text {
   color: white;
   font-size: 15px;
@@ -71,9 +77,10 @@ html {
 .nav-bar {
   color: white;
   z-index: 1;
-  background-color: black;
+  background-color: rgb(39, 39, 39);
   width: 100vw;
   margin: 0;
+  position: absolute;
 }
 #padding-left {
   padding-left: 3vw;
@@ -139,23 +146,23 @@ html {
   background-image: url('./images/xsede.png');
 }
 #person-card {
-  background-color: black;
+  background-color: #171717;
+  background-image: url("https://www.transparenttextures.com/patterns/triangles.png");
   color: white;
   border: 2px solid white;
   border-radius: 5px;
-  box-shadow: 1px 1px 8px rgb(255, 255, 255);
 }
 .collaborator-grid {
   z-index: 1;
-  background-color: black;
+  background-color: rgb(39, 39, 39);
 }
 .link-button {
-  background-color: black;
+  background-color: #171717;
+  background-image: url("https://www.transparenttextures.com/patterns/triangles.png");
   width: 200px;
   height: 100px;
   border: 2px solid white;
   border-radius: 5px;
-  box-shadow: 1px 1px 8px rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
