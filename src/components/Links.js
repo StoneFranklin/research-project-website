@@ -17,7 +17,7 @@ const links = [
 const Links = () => {
     return(
         <div className="container">
-            <div className="collaborators">
+            <div className="page-body">
                 <Title text="Links" />
                 <div className="link-text">
                     <Grid container justifyContent="center" alignItems="center" spacing={5}>

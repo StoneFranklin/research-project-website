@@ -1,11 +1,13 @@
 import React from 'react'
 import '../App.css'
+import Title from './Title'
 
 const Publications = () => {
     return(
         <div className="container">
-            <div className="cloud-image"></div>
-            <h1 className="home-text">Publications</h1>
+            <div className="page-body">
+                <Title text="Publications" />
+            </div>
         </div>
     )
 }

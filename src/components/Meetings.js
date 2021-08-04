@@ -30,7 +30,7 @@ const itemData = [
 const Meetings = () => {
     return(
         <div className="container">
-            <div className="collaborators">
+            <div className="page-body">
                 <Title text="Meetings" />
                 <ImageList rowHeight={200} className="" cols={3}>
                     {itemData.map((item) => (

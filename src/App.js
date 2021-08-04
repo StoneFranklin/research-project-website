@@ -2,12 +2,12 @@ import './App.css';
 import Home from './components/Home'
 import About from './components/About'
 import Links from './components/Links'
-import NavBar from './components/NavBar'
 import Camera from './components/Camera'
 import Collaborators from './components/Collaborators'
 import Contact from './components/Contact'
 import Meetings from './components/Meetings'
 import Publications from './components/Publications'
+import MenuDrawer from './components/MenuDrawer'
 
 import {
   BrowserRouter as Router,
@@ -18,8 +18,8 @@ import {
 function App() {
   return (
     <Router>
-      <div className="App cloud-background">
-        <NavBar />
+      <div className="App">
+        <MenuDrawer />
         <Switch>
           <Route path="/about">
             <About />
@@ -46,7 +46,6 @@ function App() {
             <Home />
           </Route>
         </Switch>
-        
       </div>
     </Router>
     

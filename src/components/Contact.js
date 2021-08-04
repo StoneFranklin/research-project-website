@@ -1,11 +1,13 @@
 import React from 'react'
 import '../App.css'
+import Title from './Title'
 
 const Contact = () => {
     return(
         <div className="container">
-            <div className="cloud-image"></div>
-            <h1 className="home-text">Contact</h1>
+           <div className="page-body">
+                <Title text="Contact" />
+            </div>
         </div>
     )
 }

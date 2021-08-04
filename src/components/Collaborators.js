@@ -16,7 +16,7 @@ const collaborators = [
 const Collaborators = () => {
     return(
         <div className="container">
-            <div className="collaborators">
+            <div className="page-body">
                 <Title text="Collaborators" />
                 <Grid container justifyContent="center" alignItems="center" spacing={8} className="collaborator-grid">
                     {collaborators.map(element => 
