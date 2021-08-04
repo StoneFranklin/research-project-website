@@ -80,7 +80,7 @@ html {
 .nav-bar {
   color: white;
   z-index: 1;
-  background-color: rgba(0, 174, 255, 0.897);
+  background-color: rgba(10, 10, 10, 0.897);
   width: 100vw;
   position: absolute;
 }

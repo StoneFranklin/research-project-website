@@ -3,6 +3,7 @@ import '../App.css'
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import ung from '../images/ung.png'
 
 const PersonCard = (props) => {
     return(
@@ -11,7 +12,7 @@ const PersonCard = (props) => {
             component="img"
             alt="Photo"
             height="220"
-            image="/images/ung.png"
+            image={ung}
             title="Contemplative Reptile"
             />
             <CardContent>

@@ -3,26 +3,31 @@ import '../App.css'
 import Title from './Title'
 import ImageList from '@material-ui/core/ImageList'
 import ImageListItem from '@material-ui/core/ImageListItem'
+import aum0 from '../images/aum_meeting_0.jpg'
+import aum1 from '../images/aum_meeting_1.jpg'
+import aum2 from '../images/aum_meeting_2.jpg'
+import aum3 from '../images/aum_meeting_3.jpg'
+import aum4 from '../images/aum_meeting_4.jpg'
 
 const itemData = [
     {
-        img: '/images/aum_meeting_0.jpg',
+        img: aum0,
         title: 'AUM Meeting Image'
     },
     {
-        img: '/images/aum_meeting_1.jpg',
+        img: aum1,
         title: 'AUM Meeting Image'
     },
     {
-        img: '/images/aum_meeting_2.jpg',
+        img: aum2,
         title: 'AUM Meeting Image'
     },
     {
-        img: '/images/aum_meeting_3.jpg',
+        img: aum3,
         title: 'AUM Meeting Image'
     },
     {
-        img: '/images/aum_meeting_4.jpg',
+        img: aum4,
         title: 'AUM Meeting Image'
     },
 ]
