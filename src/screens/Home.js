@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import BottomBar from './BottomBar';
+import BottomBar from '../components/BottomBar';
 
 const Home = () => {
     return(

@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './components/Home'
-import About from './components/About'
-import Links from './components/Links'
-import Camera from './components/Camera'
-import Collaborators from './components/Collaborators'
-import Contact from './components/Contact'
-import Meetings from './components/Meetings'
-import Publications from './components/Publications'
+import Home from './screens/Home'
+import About from './screens/About'
+import Links from './screens/Links'
+import Camera from './screens/Camera'
+import Collaborators from './screens/Collaborators'
+import Contact from './screens/Contact'
+import Meetings from './screens/Meetings'
+import Publications from './screens/Publications'
 import MenuDrawer from './components/MenuDrawer'
 
 import {

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import Title from './Title'
+import Title from '../components/Title'
 import ImageList from '@material-ui/core/ImageList'
 import ImageListItem from '@material-ui/core/ImageListItem'
 import aum0 from '../images/aum_meeting_0.jpg'
@@ -9,7 +9,7 @@ import aum2 from '../images/aum_meeting_2.jpg'
 import aum3 from '../images/aum_meeting_3.jpg'
 import aum4 from '../images/aum_meeting_4.jpg'
 
-const itemData = [
+const data = [
     {
         img: aum0,
         title: 'AUM Meeting Image'
@@ -37,10 +37,10 @@ const Meetings = () => {
         <div className="container">
             <div className="page-body">
                 <Title text="Meetings" />
-                <ImageList rowHeight={200} className="" cols={3}>
-                    {itemData.map((item) => (
-                        <ImageListItem key={item.img} cols={1}>
-                            <img src={item.img} alt={item.title} />
+                <ImageList rowHeight={200} cols={3}>
+                    {data.map((element) => (
+                        <ImageListItem key={element.img} cols={1}>
+                            <img src={element.img} alt={element.title} />
                         </ImageListItem>
                     ))}
                 </ImageList>

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import Title from './Title'
+import Title from '../components/Title'
 
 const About = () => {
     return(
