@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/research-project-website/static/css/main.687fd6ed.chunk.css",
-    "main.js": "/research-project-website/static/js/main.336cb882.chunk.js",
-    "main.js.map": "/research-project-website/static/js/main.336cb882.chunk.js.map",
+    "main.css": "/research-project-website/static/css/main.58a33e07.chunk.css",
+    "main.js": "/research-project-website/static/js/main.19a1f5d0.chunk.js",
+    "main.js.map": "/research-project-website/static/js/main.19a1f5d0.chunk.js.map",
     "runtime-main.js": "/research-project-website/static/js/runtime-main.281ebee7.js",
     "runtime-main.js.map": "/research-project-website/static/js/runtime-main.281ebee7.js.map",
     "static/js/2.ceb82a86.chunk.js": "/research-project-website/static/js/2.ceb82a86.chunk.js",
     "static/js/2.ceb82a86.chunk.js.map": "/research-project-website/static/js/2.ceb82a86.chunk.js.map",
     "index.html": "/research-project-website/index.html",
-    "static/css/main.687fd6ed.chunk.css.map": "/research-project-website/static/css/main.687fd6ed.chunk.css.map",
+    "static/css/main.58a33e07.chunk.css.map": "/research-project-website/static/css/main.58a33e07.chunk.css.map",
     "static/js/2.ceb82a86.chunk.js.LICENSE.txt": "/research-project-website/static/js/2.ceb82a86.chunk.js.LICENSE.txt",
     "static/media/aum_meeting_0.c23136dc.jpg": "/research-project-website/static/media/aum_meeting_0.c23136dc.jpg",
     "static/media/aum_meeting_1.24914369.jpg": "/research-project-website/static/media/aum_meeting_1.24914369.jpg",
     "static/media/aum_meeting_2.fab86b36.jpg": "/research-project-website/static/media/aum_meeting_2.fab86b36.jpg",
     "static/media/aum_meeting_3.3f9bec32.jpg": "/research-project-website/static/media/aum_meeting_3.3f9bec32.jpg",
     "static/media/aum_meeting_4.e8e0c1c8.jpg": "/research-project-website/static/media/aum_meeting_4.e8e0c1c8.jpg",
-    "static/media/App.css": "/research-project-website/static/media/xsede.0a77034b.png"
+    "static/media/App.css": "/research-project-website/static/media/xsede.0a77034b.png",
+    "static/media/smit.7aa689ed.jpeg": "/research-project-website/static/media/smit.7aa689ed.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.281ebee7.js",
     "static/js/2.ceb82a86.chunk.js",
-    "static/css/main.687fd6ed.chunk.css",
-    "static/js/main.336cb882.chunk.js"
+    "static/css/main.58a33e07.chunk.css",
+    "static/js/main.19a1f5d0.chunk.js"
   ]
 }
