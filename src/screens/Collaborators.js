@@ -5,6 +5,7 @@ import Title from '../components/Title'
 import { Grid } from '@material-ui/core'
 import ung from '../images/ung.png'
 import nsf from '../images/nsf.png'
+import smit from '../images/smit.jpeg'
 
 const collaborators = [
     {
@@ -17,7 +18,7 @@ const collaborators = [
         name: "Smit Patel", 
         title: "Research Assistant", 
         school: "University of North Georgia", 
-        image: nsf
+        image: smit
     },
     {
         name: "Test", 
